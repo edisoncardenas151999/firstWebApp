@@ -1,0 +1,17 @@
+
+{{#if user}}
+    <h1>Welcome to my first webApp! {{user.username}} </h1>
+  <form action='/auth/logout' method="POST">
+    <button>Logout</button>
+  </form>
+<nav>
+<a href="/auth/home">Home</a>
+<a href="/auth/info">About Us</a>
+<a href="/auth/contact">Contact Us</a>
+<a href="/auth/products"> View Products</a>
+
+</nav>
+
+{{else}}
+  <br><p>Please log in to show this page!</p>
+{{/if}}

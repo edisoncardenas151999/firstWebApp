@@ -1,0 +1,111 @@
+body {
+ margin:0;
+ padding: 0;
+}
+
+.logo{
+  height: 150px;
+  padding: 2px;
+
+  
+}
+.container2 {
+  padding-bottom: 100px;
+  background-color: rgb(238, 233, 234);
+
+}
+.navbar {
+  background-color: whitesmoke
+}
+.insideHome{
+  padding: 200px;
+
+}
+.col-md-4 {
+  margin: 50px;
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 80px;
+  border: solid 5px ;
+  border-image: linear-gradient(pink, green) 27  
+}
+.welcome{
+  padding: 50px;
+  margin-bottom: -300px;
+  padding-right: 500px;
+  text-align: center;
+  padding-left: 500px;
+}
+.outletify{
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(251, 226, 230);
+  text-align: center;
+}
+.follow{
+padding:200px;
+text-decoration: none;
+font-family:'Courier New', Courier, monospace;
+color: black;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.choices{
+  padding:20px;
+}
+.items{
+  list-style: none;
+ text-align: center;
+ margin-right: 10px;
+}
+.menu{
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.slider-frame{
+  border: 2px solid red;
+  padding: 200px;
+  overflow: hidden;
+  
+}
+
+.flash {
+  padding:40px;
+  background-image: url('/images/Flash-sale_pre_heat_cover.gif');
+  background-size: contain;
+ 
+}
+.info{
+margin-left: -100px;
+margin-right: -100px;
+
+}
+h3{
+  position: absolute;
+  margin-top: 100px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+  
+}
+.signupSalePic{
+  padding: 300px;
+  background-image: url('/images/istock-506442302__large.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.signupBonus{
+  margin-left: 500px;
+}

@@ -1,0 +1,11 @@
+
+
+
+{{#each product}}
+  <div>
+     <img class="imgItem" src={{img}}>
+    <h5>  {{name}}</h5> <p> <br>{{price}} <br>{{info}}</p>
+    <a href="/auth/product/add/{{_id}}">checkout</a>
+   </div>
+{{/each}}
+<a href="/auth/home"> HOME </a>
