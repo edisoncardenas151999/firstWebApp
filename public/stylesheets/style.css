@@ -49,7 +49,7 @@ body {
   text-align: center;
 }
 .follow{
-padding:200px;
+padding:150px;
 text-decoration: none;
 font-family:'Courier New', Courier, monospace;
 color: black;
@@ -84,11 +84,7 @@ padding-bottom: 0px;
   background-size: contain;
  
 }
-.info{
-margin-left: -100px;
-margin-right: -100px;
 
-}
 h3{
   position: absolute;
   margin-top: 100px;
@@ -97,15 +93,4 @@ h3{
   
 
   
-}
-.signupSalePic{
-  padding: 300px;
-  background-image: url('/images/istock-506442302__large.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.signupBonus{
-  margin-left: 500px;
 }
